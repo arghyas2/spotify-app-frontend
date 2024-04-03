@@ -1,0 +1,55 @@
+.utilities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: yellow;
+}
+
+.utilities-title {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.utilities-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-color: yellow;
+    color: black;
+    border: 2px solid yellow;
+    padding: 10px 20px;
+    margin: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.event-card {
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.event-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    opacity: 1;
+}

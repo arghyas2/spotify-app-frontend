@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: yellow;
+    background-color: black;
+}
+
+.home h1 {
+    margin-bottom: 20px;
+}
+
+.home button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home button:hover {
+    background-color: darkgoldenrod;
+}
